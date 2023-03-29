@@ -1,4 +1,4 @@
-\documentclass[fontset=windows]{article}
+\documentclass{article}
 
 % Language setting
 % Replace `english' with e.g. `spanish' to change the document language
@@ -14,7 +14,6 @@
 % Useful packages
 \usepackage{amsmath}
 \usepackage{graphicx}
-\graphicspath{{Figures/}}%文章所用图片在当前目录下的 Figures目录
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{ctex}
 \usepackage{bm}
@@ -41,7 +40,7 @@ Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources 文�
 
 \subsection{微观描述}
 首先，我们考虑单粒子近似下，电子与高频微波的作用。热等离子体被限制在共振面内，电子沿着磁力线穿梭在两个磁镜峰之间，来回往复运动，并且在经过共振面时获得能量。
-注入的微波对等离子体起到了随机加热的效应，在相互作用过程中，电子获得的能量为$ \delta E = v \delta p $，此时微波损失的能量为$\hbar \omega$。于是有关系：
+注入的微波对等离子体起到了随机加热的效应，在相互作用过程中，电子获得的能量为$\delta E = v \delta p$，此时微波损失的能量为$\hbar \omega$。于是有关系：
 \begin{equation}
 \delta E-\hbar\omega=0=v_\perp \delta p_\perp +v_\parallel \delta p_\parallel-\hbar\omega
 \label{e1}
@@ -105,7 +104,7 @@ v_\perp \delta p_\perp +v_\parallel \delta p_\parallel=0
         该公式仅适用于未激发O波时的情况。
     \end{enumerate}
 \end{enumerate}
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{magnetic beach effect.png}
     \caption{Electron cyclotron heating by transverse acceleration of electrons in a magnetic field: “magnetic beach effect.”}
@@ -119,7 +118,7 @@ v_\perp \delta p_\perp +v_\parallel \delta p_\parallel=0
 由于在截止点或者被腔壁反射的微波功率可能不会被回旋共振吸收，但是也有可能通过上混杂形式共振的X波吸收$\omega_{rf}=\omega_{UH}$。
 
 \subsection{宏观描述：本征模式}
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{possible modes.png}
     \caption{Caption}
