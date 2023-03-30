@@ -72,7 +72,7 @@ v_\perp \delta p_\perp +v_\parallel \delta p_\parallel=0
 \begin{enumerate}
     \item [a.]在平行传播或者准平行传播中(波矢$k$平行于磁场$B$)，将存在两种情况：
     \begin{enumerate}
-        \item[1.]呼啸波(电场圆极化，并且垂直于波矢$k$)$\omega_{rf}<\omega_{ce}$。在递减的磁场中，共振点为$\omega_{rf}\approx\omega{ce}$。\
+        \item[1.]呼啸波(电场圆极化，并且垂直于波矢$k$)$\omega_{rf}<\omega_{ce}$。在递减的磁场中，共振点为$\omega_{rf}\approx\omega_{ce}$。\
         \item[2.]对于高频波，也被称为脉泽波，此时$\omega_{rf}>\omega_{ce}$，其中
         \begin{equation}
             \omega_{pe}=(\frac{n_ee^2}{\epsilon_0m_e})^{1/2}
@@ -119,12 +119,6 @@ v_\perp \delta p_\perp +v_\parallel \delta p_\parallel=0
 由于在截止点或者被腔壁反射的微波功率可能不会被回旋共振吸收，但是也有可能通过上混杂形式共振的X波吸收$\omega_{rf}=\omega_{UH}$。
 
 \subsection{宏观描述：本征模式}
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{possible modes.png}
-    \caption{Caption}
-    \label{f-2}
-\end{figure}
 ECRIS中的微波也可以被宏观描述，比如考虑等离子体腔是一个多模腔，里面可以存在许多种电磁波的模式，并且可以通过微波耦合系统选择何种模式。圆柱形腔体（ECRIS的弧腔）的本征模为$\text{TE}_{m,n,p}$或$\text{TM}_{m,n,p}$，这些角标分别代表周向$\Psi$，径向$r$，和轴向$z$。\textbf{它们实际上是相对平行的波形成的驻波}，在真空中的色散关系为
 \begin{equation}
     k_0^2=k_\perp^2(m,n)+k_\parallel^2(p)
@@ -136,6 +130,12 @@ ECRIS中的微波也可以被宏观描述，比如考虑等离子体腔是一个
 但是在真实情况中，被注入的线极化波沿主轴平行传播，然后有可以转化为呼啸波。但是只有很少的右旋波可以被吸收，左旋的微波功率则无法被完全吸收。因此大量未被吸收的微波在ECR面处被反射，随后被弧腔壁反射。所以，\textbf{等离子体的空腔模式可能存在耦合}。
 
 让我们考虑Caprice的ECRIS，它的设计频率为10 GHz。弧腔的长度为160 mm ，直径为66 mm。计算得到它在9.5到10.5 GHz频率下的存在的模式如图\ref{f-2}所示。
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{possible modes.png}
+    \caption{Possible modes in vacuum for a Caprice ECRIS between 9.5 GHz and 10.5 GHz}
+    \label{f-2}
+\end{figure}
 
 尽管存在简并的微波模式，但是可以通过微波耦合系统来选择特定的模式以避免电场的简并。最好的模式为TE$_{1,n,p}$和TM$_{m,n,p}$。
 
@@ -145,8 +145,7 @@ ECRIS中的微波也可以被宏观描述，比如考虑等离子体腔是一个
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{Schematic diagram.png}
-    \caption{Schematic diagram of a 28 GHz transmission line with two coupling possibilities
-(arrows indicate the electric field).}
+    \caption{Schematic diagram of a 28 GHz transmission line with two coupling possibilities(arrows indicate the electric field).}
     \label{f-3}
 \end{figure}
 当微波频率在20 GHz以下时，常常采用矩形波导进行微波传输。但是超过20 GHz后，高功率微波源常常采用回旋管，它的输出常为圆波导或者准光学传输，比如28 GHz微波采用TE$_{02}$的过尺寸波导。从微波源到离子源的微波传输线必须经过严格的计算和设计，以避免传输过程中出现模式转换而导致的微波损失。这些杂散的模式由于波导制作的不完美导致的，比如倾斜、弯曲、直径变化、高压绝缘和真空窗等。如图\ref{f-3}所示为28 GHz微波传输线。它可以提供两种微波馈入方式。在回旋管微波窗处安装了一个弧光探测器，用以防止打火对回旋管造成损伤。两个功率计分别测量输出功率和反射功率。模式过滤器用来过滤所有超过TE$_{02}$的模式，随后TE$_{02}$模式转化为TE$_{01}$模式，因为TE$_{01}$模式在长距离的传输中有更小的欧姆损失。随后TE$_{01}$模式可以转化为TE$_{11}$或HE$_{11}$模式，然后通过绝缘传输线馈入ECRIS中。
@@ -170,9 +169,8 @@ ECRIS中总共的吸收功率可以写为：
 \end{equation}
 其中$\tau_e$是电子的约束时间，$V$是热等离子体体积。
 
-为了有效的传输和耦合微波功率到ECRIS中，需要在设计微波传输线时特别注意以最小化损耗。当超过1kW的微波功率时，十分推荐使用过尺寸的波导管。但是波导的位置需要特别小心的选取，以防止寄生共振造成的出气效应。
+为了有效的传输和耦合微波功率到ECRIS中，需要在设计微波传输线时特别注意以最小化损耗。当超过1 kW的微波功率时，十分推荐使用过尺寸的波导管。但是波导的位置需要特别小心的选取，以防止寄生共振造成的出气效应。
 
-一旦等离子体被产生，对电子和离子密度和温度的诊断尤为重要。
 
 
 
