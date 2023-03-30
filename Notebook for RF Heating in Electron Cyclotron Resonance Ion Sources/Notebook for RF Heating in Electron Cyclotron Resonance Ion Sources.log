@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  30 MAR 2023 16:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  30 MAR 2023 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources"
-(./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.tex
+**"Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources"
+(./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -485,8 +485,8 @@ Package: gensymb 2022/10/17 v1.0.2 (KJH)
 )
 \c@defination=\count323
 \c@theorem=\count324
- (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux)
-\openout1 = `"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux"'.
+ (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.aux)
+\openout1 = `"Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -553,9 +553,9 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: xetex.def on input line 149.
  (d:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 32.
- (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.out) (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.out)
+ (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.out) (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.out)
 \@outlinefile=\write3
-\openout3 = `"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.out"'.
+\openout3 = `"Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.out"'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -626,35 +626,26 @@ Package gensymb Warning: Not defining \micro.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 44.
+(Font)              size <10.95> substituted on input line 41.
 
+No file "Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources".bbl.
 [1
 
-]
-File: Figures//magnetic beach effect.png Graphic file (type bmp)
-<Figures//magnetic beach effect.png>
- [2]
-File: Figures//possible modes.png Graphic file (type bmp)
-<Figures//possible modes.png>
-File: Figures//Schematic diagram.png Graphic file (type bmp)
-<Figures//Schematic diagram.png>
- [3] [4]
-No file "Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources".bbl.
-[5] (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux)
+] (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
-Package rerunfilecheck Info: File `"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources".out' has not changed.
+Package rerunfilecheck Info: File `"Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17357 strings out of 476683
- 378691 string characters out of 5807575
- 1872012 words of memory out of 5000000
- 37328 multiletter control sequences out of 15000+600000
- 525062 words of font info for 102 fonts, out of 8000000 for 9000
+ 17200 strings out of 476683
+ 369940 string characters out of 5807575
+ 1860012 words of memory out of 5000000
+ 37182 multiletter control sequences out of 15000+600000
+ 525030 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,6n,97p,591b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,97p,419b,347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.pdf (5 pages).
+Output written on Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.pdf (1 page).

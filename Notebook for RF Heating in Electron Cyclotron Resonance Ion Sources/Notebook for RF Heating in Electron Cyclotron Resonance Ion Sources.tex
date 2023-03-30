@@ -1,0 +1,60 @@
+\documentclass[fontset=windows]{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with`a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{caption2}
+\usepackage{subfigure}
+\usepackage{float}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{Figures/}}%文章所用图片在当前目录下的 Figures目录
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{ctex}
+\usepackage{bm}
+\usepackage{gensymb}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\newtheorem{defination}{定义}[section]
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+
+\title{ECR离子源阅读笔记}
+\author{X.Y. Wang}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+RF Heating in Electron Cyclotron Resonance Ion Sources 文章阅读笔记,争取在4月5日前完成。
+\end{abstract}
+
+\section{简介}
+为了更好的理解ECRIS的原理，需要使用原子物理的相关知识，总结起来是以下的公式：
+\begin{equation}
+    n_e\tau_e=\frac{1}{S_{q,q-1}-S_{q+1,q}}
+    \label{e-1}
+\end{equation}
+\begin{equation}
+    S_{q,q-1}=\frac{1}{n_e}\int_{\varepsilon_{q,q-1}}^{\infty}\sigma_{q,q-1}\sqrt{\frac{2\varepsilon}{m_e}}F(\varepsilon)d\varepsilon
+    \label{e-2}
+\end{equation}
+其中$\tau_q$是电荷态为$q$离子的寿命， $S_{q,q-1}$是电离率(它取决于电离截面$\sigma$), $F(\varepsilon)$是电子的能量分布，其中$\varepsilon$是电荷态的电离能。
+
+式\ref{e-1}中的分母在低温时逐渐升高，但是当温度超过20-30 keV时下降。当电离率为定值时，只有产生率$n_e\tau_e$足够高时才能产生足够高电荷态的离子。这时引出的粒子流强为：
+\begin{equation}
+    I_q^z\approx\frac{1}{2}\frac{n_q^zqeV_{ex}}{\tau_{q,l}^z}
+\end{equation}
+其中$V_{ex}$是等离子体内核的体积，$n_q$是某电荷态离子的密度。这个公式表示离子密度和离子寿命是高性能ECRIS的关键。电子温度同样也很重要，但是过热的加热需要被避免，因为超热电子产生硬韧致辐射，这会增加超导磁铁低温恒温器的热载，并且对绝缘器件造成损伤。
+
+\bibliographystyle{alpha}
+\bibliography{sample}
+
+\end{document}
