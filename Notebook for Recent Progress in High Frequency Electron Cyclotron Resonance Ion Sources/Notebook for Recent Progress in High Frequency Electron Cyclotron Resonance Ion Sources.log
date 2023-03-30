@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  30 MAR 2023 10:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  30 MAR 2023 10:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Notebook for Recent Progress in High Frequency Electron"
-(./Notebook for Recent Progress in High Frequency Electron.tex
+**"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources"
+(./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -485,9 +485,8 @@ Package: gensymb 2022/10/17 v1.0.2 (KJH)
 )
 \c@defination=\count323
 \c@theorem=\count324
-
-No file "Notebook for Recent Progress in High Frequency Electron".aux.
-\openout1 = `"Notebook for Recent Progress in High Frequency Electron.aux"'.
+ (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux)
+\openout1 = `"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -509,6 +508,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -553,12 +553,9 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: xetex.def on input line 149.
  (d:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 32.
+ (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.out) (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.out)
 \@outlinefile=\write3
-\openout3 = `"Notebook for Recent Progress in High Frequency Electron.out"'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
+\openout3 = `"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.out"'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -619,6 +616,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 LaTeX Info: Redefining \celsius on input line 32.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 32.
 
+
 Package gensymb Warning: Not defining \perthousand.
 
 LaTeX Info: Redefining \ohm on input line 32.
@@ -630,55 +628,33 @@ Package gensymb Warning: Not defining \micro.
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 44.
 
-
-LaTeX Warning: Reference `e1' on page 1 undefined on input line 51.
-
-
-LaTeX Warning: Reference `e2' on page 1 undefined on input line 58.
-
 [1
 
 ]
 File: Figures//magnetic beach effect.png Graphic file (type bmp)
 <Figures//magnetic beach effect.png>
-
-
-LaTeX Warning: Reference `f-1' on page 2 undefined on input line 115.
-
-[2]
-
-LaTeX Warning: Reference `f-2' on page 3 undefined on input line 132.
-
+ [2]
 File: Figures//possible modes.png Graphic file (type bmp)
 <Figures//possible modes.png>
 File: Figures//Schematic diagram.png Graphic file (type bmp)
 <Figures//Schematic diagram.png>
-
-LaTeX Warning: Reference `f-3' on page 3 undefined on input line 151.
-
-[3] [4] [5]
-No file "Notebook for Recent Progress in High Frequency Electron".bbl.
-[6] (./Notebook for Recent Progress in High Frequency Electron.aux)
+ [3] [4]
+No file "Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources".bbl.
+[5] (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `"Notebook for Recent Progress in High Frequency Electron".out' has not changed.
+Package rerunfilecheck Info: File `"Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17348 strings out of 476683
- 377520 string characters out of 5807575
+ 17358 strings out of 476683
+ 378704 string characters out of 5807575
  1872012 words of memory out of 5000000
- 37325 multiletter control sequences out of 15000+600000
+ 37329 multiletter control sequences out of 15000+600000
  525062 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,8n,97p,559b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,97p,591b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notebook for Recent Progress in High Frequency Electron.pdf (6 pages).
+Output written on Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.pdf (5 pages).
