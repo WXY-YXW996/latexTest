@@ -54,6 +54,11 @@ RF Heating in Electron Cyclotron Resonance Ion Sources 文章阅读笔记,争取
 \end{equation}
 其中$V_{ex}$是等离子体内核的体积，$n_q$是某电荷态离子的密度。这个公式表示离子密度和离子寿命是高性能ECRIS的关键。电子温度同样也很重要，但是过热的加热需要被避免，因为超热电子产生硬韧致辐射，这会增加超导磁铁低温恒温器的热载，并且对绝缘器件造成损伤。
 
+以往对等离子体起弧和稳定性问题的研究是基于半经验公式。最小B结果是磁流体稳定的，它的磁压比$\beta\ll1$。基于$n_e=n_c=\frac{m\omega_{RF}^2\varepsilon_0}{e^2}$的假设，磁流体稳定性条件为：
+\begin{equation}
+    (\frac{B}{B_{ECR}})^2>2\cdot10^2kT_e\frac{\mu_0\varepsilon_0}{m_e}
+\end{equation}
+通常情况下$\frac{B}{B_{ECR}}\geq2B_{ECR}$，$B_{inj}\approx3\cdot B_{ECR}$或更多，$B_{ext}\approx B_{rad}$，$0.3<\frac{B_{min}}{B_{rad}}<0.45$
 \bibliographystyle{alpha}
 \bibliography{sample}
 
