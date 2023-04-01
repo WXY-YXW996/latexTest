@@ -141,6 +141,36 @@ ECRIS中的微波也可以被宏观描述，比如考虑等离子体腔是一个
 
 \section{ECRIS中应用的耦合方案}
 大多数ECRIS的弧腔尺寸仅为微波波长的几倍，等离子体体积相对于弧腔来说也十分小。\textbf{因为等离子体具有吸收性}，许多本征模叠加并且在同一频率下同时存在。但是这些模式并不具有相同的权重，因此弧腔中的电磁场分布主要取决于耦合系统的选择。
+\subsection{同轴耦合}
+为了紧凑的考虑，B. Jacquot利用同轴的微波发射器在Caprice型的离子源(1987)。从那之后，许多紧凑的ECRIS都采用同样的微波耦合方案。
+
+但是看起来等离子体弧腔中存在的微波模式为$TM_{0,m,n}$。对于这种模式，电场的轴向分量为0，也就是在等离子体的主体区域，如图\ref{TEM}所示。
+\begin{figure}
+    \centering
+    \includegraphics[width=0.2\textwidth]{TEM.png}
+    \caption{TEM waves. Solid lines, electric lines: dashed lines, magnetic lines.}
+    \label{TEM}
+\end{figure}
+
+而且，通过测量Caprice中轴对称等离子体的抗磁效应，等离子体的总能量为$nE$。事实上，根据MHD平衡定理，压力梯度通过抗磁电流的洛伦兹力平衡。这个抗磁电流产生的磁场与主磁场相反：
+\begin{equation}
+    \Delta P=j\times B
+\end{equation}
+一个围绕在等离子体的环可以测量它内部任意的磁通量变化。这个变化可以转化为电压：
+\begin{equation}
+    \int V dt=-N\Delta \Phi\approx\frac{1}{2}N\pi r^2B\frac{\Sigma nkT}{B^2/2\mu_0}
+\end{equation}
+其中$N$是环的圈数。抗磁性反应的是等离子体的总能量。
+
+在Caprice中的抗磁性测量表明等离子体吸收的微波功率约为馈入功率的20$\%$，如图\ref{Efficiency-1}所示。
+\begin{figure}
+    \centering
+    \includegraphics{Efficiency of the.png}
+    \caption{Efficiency of the coaxial coupling into a Caprice ECRIS}
+    \label{Efficiency-1}
+\end{figure}
+
+该系统可以在模式转化处产生驻波，因此可以通过垂直注入的方式避免方波导转为同轴线时的功率损耗。此外，当微波在同轴线中传播时，他们会在进入等离子体弧腔前经过一个共振面。如果此处的气压过高，那么会有一部分微波功率会被吸收。虽然这种方式对于紧凑型ECRIS是有利的，但是这种微波耦合方法是难以使用和低效率的。
 \subsection{频率超过20 GHz}
 \begin{figure}
     \centering
