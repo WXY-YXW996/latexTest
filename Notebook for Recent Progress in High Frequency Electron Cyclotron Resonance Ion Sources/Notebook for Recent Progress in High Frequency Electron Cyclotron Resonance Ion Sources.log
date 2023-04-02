@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  2 APR 2023 01:01
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  2 APR 2023 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,8 +650,11 @@ File: Figures//TE10.png Graphic file (type bmp)
 File: Figures//Schematic diagram.png Graphic file (type bmp)
 <Figures//Schematic diagram.png>
  [6]
+File: Figures//Xe.png Graphic file (type bmp)
+<Figures//Xe.png>
+ [7]
 No file "Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources".bbl.
-[7] (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux)
+[8] (./Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -660,12 +663,12 @@ Package rerunfilecheck Info: File `"Notebook for Recent Progress in High Frequen
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17458 strings out of 476683
- 383559 string characters out of 5807575
+ 17493 strings out of 476683
+ 385352 string characters out of 5807575
  1872012 words of memory out of 5000000
- 37425 multiletter control sequences out of 15000+600000
+ 37459 multiletter control sequences out of 15000+600000
  525062 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,6n,97p,591b,427s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,97p,591b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.pdf (7 pages).
+Output written on Notebook for Recent Progress in High Frequency Electron Cyclotron Resonance Ion Sources.pdf (8 pages).
