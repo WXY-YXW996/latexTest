@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  3 APR 2023 11:46
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  6 APR 2023 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -558,10 +558,6 @@ Package hyperref Info: Link coloring ON on input line 32.
 \openout3 = `"Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.out"'.
 
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
@@ -620,6 +616,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 LaTeX Info: Redefining \celsius on input line 32.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 32.
 
+
 Package gensymb Warning: Not defining \perthousand.
 
 LaTeX Info: Redefining \ohm on input line 32.
@@ -631,13 +628,13 @@ Package gensymb Warning: Not defining \micro.
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 41.
 
-(./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.bbl
+[1
+
+] (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [1
-
-] (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.aux)
+) [2] (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -646,12 +643,12 @@ Package rerunfilecheck Info: File `"Notebook for RF Heating in Electron Cyclotro
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17205 strings out of 476683
- 370213 string characters out of 5807575
- 1866012 words of memory out of 5000000
- 37185 multiletter control sequences out of 15000+600000
+ 17203 strings out of 476683
+ 370167 string characters out of 5807575
+ 1872012 words of memory out of 5000000
+ 37183 multiletter control sequences out of 15000+600000
  525030 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,6n,97p,419b,347s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,9n,97p,419b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.pdf (1 page).
+Output written on Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.pdf (2 pages).

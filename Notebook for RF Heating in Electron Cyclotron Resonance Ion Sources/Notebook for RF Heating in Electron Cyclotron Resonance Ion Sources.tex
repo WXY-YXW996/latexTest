@@ -58,7 +58,18 @@ RF Heating in Electron Cyclotron Resonance Ion Sources 文章阅读笔记,争取
 \begin{equation}
     (\frac{B}{B_{ECR}})^2>2\cdot10^2kT_e\frac{\mu_0\varepsilon_0}{m_e}
 \end{equation}
-通常情况下$\frac{B}{B_{ECR}}\geq2B_{ECR}$，$B_{inj}\approx3\cdot B_{ECR}$或更多，$B_{ext}\approx B_{rad}$，$0.3<\frac{B_{min}}{B_{rad}}<0.45$
+通常情况下$\frac{B}{B_{ECR}}\geq2B_{ECR}$，$B_{inj}\approx3\cdot B_{ECR}$或更多，$B_{ext}\approx B_{rad}$，$0.3<\frac{B_{min}}{B_{rad}}<0.45$。考虑电磁场的截止现象，R. Geller提出了流强和平均电荷态关于$\omega_{RF}$的scaling law:
+\begin{align}
+    I\propto\frac{\omega_{RF}^2}{M}
+    <q>\,\propto\, log\omega_{RF}^{3.5}
+\end{align}
+
+根据这些scaling laws，ECRIS性能的提升也取决于微波频率和约束磁场的提升。发展更经济有效的磁铁，高效的微波耦合，和更深入的微波加热机理研究是目前所需要的。
+
+\section{ECRIS中的加热模型}
+Lieberman等人利用单电子模型，考虑动量随机效应去解释无碰撞的ECRIS电子加热模型。模型中假设电子的运动提供了波-粒子相互作用的随机相位。在一个抛物线型的磁场$B=B_{min}(1+z^2/L^2)$，其中$L=(\Delta B/ B)^{-1}$
+
+
 \bibliographystyle{alpha}
 \bibliography{sample}
 
