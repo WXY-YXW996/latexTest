@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  6 APR 2023 15:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.29)  20 APR 2023 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -630,25 +630,39 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 
 [1
 
-] (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.bbl
+]
+Overfull \hbox (1.24515pt too wide) in paragraph at lines 89--90
+[]\TU/SimSun(0)/m/n/10.53937 电 子 加 热 过 程 可 以 通 过 速 度 空 间 的 扩 散 来 理 解。|  考 虑 球 坐 标 系 $\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 v; ^^V; ^^R\OT1/cmr/m/n/10.53937 )$\TU/SimSun(0)/m/n/10.53937 ，|  其 中 $\OML/cmm/m/it/10.53937 v$ \TU/SimSun(0)/m/n/10.53937 是 速 度，| $[] \OML/cmm/m/it/10.53937 ^^V$
+ []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [2] (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.aux)
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
+(Font)              size <14.4> substituted on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 111.
+
+No file "Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources".bbl.
+[2] [3] (./Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.41063pt have occurred.
+(Font)              up to 0.65625pt have occurred.
 
 Package rerunfilecheck Info: File `"Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17203 strings out of 476683
- 370167 string characters out of 5807575
+ 17267 strings out of 476683
+ 373297 string characters out of 5807575
  1872012 words of memory out of 5000000
- 37183 multiletter control sequences out of 15000+600000
- 525030 words of font info for 98 fonts, out of 8000000 for 9000
+ 37244 multiletter control sequences out of 15000+600000
+ 529145 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,9n,97p,419b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,9n,97p,419b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.pdf (2 pages).
+Output written on Notebook for RF Heating in Electron Cyclotron Resonance Ion Sources.pdf (3 pages).

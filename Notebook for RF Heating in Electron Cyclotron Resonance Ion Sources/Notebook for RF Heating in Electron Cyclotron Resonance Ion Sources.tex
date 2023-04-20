@@ -67,9 +67,49 @@ RF Heating in Electron Cyclotron Resonance Ion Sources 文章阅读笔记,争取
 根据这些scaling laws，ECRIS性能的提升也取决于微波频率和约束磁场的提升。发展更经济有效的磁铁，高效的微波耦合，和更深入的微波加热机理研究是目前所需要的。
 
 \section{ECRIS中的加热模型}
-Lieberman等人利用单电子模型，考虑动量随机效应去解释无碰撞的ECRIS电子加热模型。模型中假设电子的运动提供了波-粒子相互作用的随机相位。在一个抛物线型的磁场$B=B_{min}(1+z^2/L^2)$，其中$L=(\Delta B/ B)^{-1}$
+Lieberman等人利用单电子模型，考虑动量随机效应去解释无碰撞的ECRIS电子加热模型。模型中假设电子的运动提供了波-粒子相互作用的随机相位。在一个抛物线型的磁场$B=B_{min}(1+z^2/L^2)$，其中$L=(\Delta B/ B)^{-1}$是磁场B的特征长度。电子在z方向上的运动可以描述为：
+\begin{equation}
+    z=z_0 \cos(\omega_b t+\varPsi_0)
+\end{equation}
+其中$\omega_b$是电子运动的往复频率。电子每次穿过共振面时将获得一个垂直磁场方向的冲量，这个能量冲量大小取决于随机相位$\phi$:
+\begin{equation}
+    \varepsilon=\varepsilon_i+\Delta\varepsilon+2\cos(\phi)\sqrt{\varepsilon_i\cdot\Delta\varepsilon}
+\end{equation}
+考虑电磁场中的电场方程，可以得到：
+\begin{equation}
+    E(r,\theta,z,t)=E_0\cos[\omega_{RF}t+\theta-kz_0\cos(\omega_b t+\Psi_0)]
+\end{equation}
+上述公式描述了电子经过多次共振相互作用的结果。这个模型也被称为“非线性摆模型”。
+在相空间中，每一个虚波的分界线在一个宽的速度范围内重叠，也就意味着混沌的扩散和加热现象。加热在分界线上停止，比如：$\omega\cong\omega_c\approx\omega_{RF}$，此时能来个你为$W_s$。随机势垒为：
+\begin{equation}
+    W_b\approx 5W_s=[m_eL(1+\frac{l^2}{L^2})]^{1/4}l\omega^{1/2}(eE)^{3/4}
+\end{equation}
+其中$l$是共振区的长度。
 
+电子加热过程可以通过速度空间的扩散来理解。考虑球坐标系$(v,\mu,\theta)$，其中$v$是速度，$\arccos \mu$是螺旋角，$\theta$是与磁场的夹角。此时扩散张量为：
+\begin{equation}
+    D_{vv}=\frac{\Delta v^2}{2\Delta t}=\pi(\frac{eE}{2m_e})^{2}\frac{L}{d\omega}\,\, \text{and} \,\, D_{\mu\mu}=\frac{\Delta\mu^2}{2\Delta t}=D_{vv}(\frac{v}{v_\phi})^{2}
+    \label{e-10}
+\end{equation}
+其中$d$是等离子体尺寸，$v_\phi$是相速度。分布函数为：
+\begin{equation}
+    \frac{\partial f_e}{\partial t}=\left(\frac{\partial f_e}{\partial t}\right)_{coll}+\left(\frac{\partial f_e}{\partial t}\right)_{RF}+S_{i,e},\,\,\,\, \text{with: }\left(\frac{\partial f_e}{\partial t}\right)_{RF}=\frac{\partial}{\partial v_i}\left(D_{i,j}\frac{\partial f_e}{\partial v_i}\right)
+\end{equation}
+其中$S_{i,e}$是离子和电子的电离率和二次电子发射系数。RF项代表扩散系数，扩散是各向异性的，因为RF场中的螺角散射的原因。
 
+可以得到一个结论是：随着$L$的增加，加热效率迅速提升。螺角散射的影响取决于$v_\phi$，越靠近共振面，冷等离子体的折射率可以写为：
+\begin{equation}
+    \frac{k^2c^2}{\omega^2}\approx-\frac{\omega_p^2}{\omega kv_T}
+\end{equation}
+其中$v_T$是热速度，$\omega_p$是等离子体频率。因此$v_\phi$为：
+\begin{equation}
+    v_\phi^3\approx\frac{\omega^2}{\omega_p^2}v_t c^2=\frac{n_c}{n_e}v_tc^2
+\end{equation}
+
+根据公式\ref{e-10}，$D_{\mu\mu}$随着$v_\phi$减小而增长。当$v_t$接近$v_\phi$时，RF散射使电子进入损失锥中，这会限制$n_e$的增长。继续提高$n_e$，$n_c$就必须提高，因此$n_e\propto\omega_{RF}^2$；$\omega_{RF}$又确定了特征的电子能量：$E_{char}\approx\frac{m_ev_\phi^2}{2}$。这种方法可以很好的解释Geller提出的"omega squared"定律，以及频率提高会导致电子平均能量的提高。
+
+\section{$L$的非经典标度和基体效应的影响}
+上述模型在尝试预测L方向上最大的$E_max$时失效。Koivisto等人测量了EEDF与L的关系，得到结论与理论预测并不相符。
 \bibliographystyle{alpha}
 \bibliography{sample}
 
